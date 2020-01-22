@@ -1,0 +1,121 @@
+const path = require('path');
+
+module.exports = {
+    //
+    // ======
+    // Suites
+    // ======
+    // Define your test suites here. 
+    //
+    suites: [{
+        name: 'Selenium',
+        cases: [{
+            path: './tests/selenium-with-po.js'
+        }]        
+    },{
+        name: 'Visual',
+        cases: [{
+            path: './tests/visual.js'
+        }]        
+    },{
+        name: 'PDF',
+        cases: [{
+            path: './tests/pdf.js'
+        }]        
+    }],
+    //
+    // ============
+    // Capabilities
+    // ============
+    // Define your capabilities here. 
+    // If "concurrency" value is greater than 1, tests with different capabilities will be executed in parallel.
+    //
+    concurrency: 1,
+    capabilities: [{
+        browserName: 'chrome',
+    },{
+        browserName: 'firefox',
+    }],
+    //
+    // ========
+    // Services
+    // ========
+    // List services you want to enable during the test execution.
+    // Available services: selenium-standalone | devtools
+    //
+    services: ['selenium-standalone', 'devtools'],   
+    //
+    // =======
+    // Modules
+    // =======
+    // List modules you want to enable during the test execution.
+    // Loading unnecessary modules might slow down your test execution, 
+    // so only load modules that are used in the test.
+    // See a list of available modules here: http://docs.oxygenhq.org/
+    //
+    modules: ['web', 'db', 'log', 'assert', 'eyes', 'pdf', 'http', 'email'],
+    //
+    // =========
+    // Framework
+    // =========
+    // Define a testing framework for this project. 
+    // Available frameworks: oxygen | cucumber
+    //
+    framework: 'oxygen',
+    //
+    // =========
+    // Reporting
+    // =========
+    // Define test reporter format and corresponding options. 
+    // Multiple reporter formats can be specified.
+    // Available reporters: json | html | junit | excel | pdf | xml
+    //
+    reporting: {
+        //outputDir: path.join(__dirname, 'reports'),
+        reporters: ['json'],
+    },
+    //
+    // ==========
+    // Applitools
+    // ==========
+    // Define your Applitools service API key.
+    //
+    applitoolsOpts: {
+        key: 'QFhaDgdYdxGeiK2363PcwSrZVi34lUCx6yR1f6diFUA110'
+    },
+    //
+    // =====
+    // Hooks
+    // =====
+    // Oxygen provides several hooks that can be used to interfere with the test
+    // execution process. 
+    //
+    hooks: {
+        //
+        // Hook that gets executed before the test starts.
+        // At this point, Oxygen has been already initialized, so you
+        // can access Oxygen via 'ox' global variable. 
+        //
+        beforeTest: function(runId, options, caps) {
+            console.log('beforeTest');            
+        },
+        beforeSuite: function(runId, suiteDef) {
+            console.log('beforeSuite');
+        },
+        beforeCase: function(runId, caseDef) {
+            web.init()
+            eyes.init('web');
+            log.info('Say hello before running this test case!')
+            console.log('beforeCase');
+        },
+        afterCase: async function(runId, caseResult, error) {
+            console.log('afterCase')
+        },
+        afterSuite: function(runId, suiteResult, error) {
+            console.log('afterSuite')
+        },
+        afterTest: function(runId, testResult, error) {
+            console.log('afterTest')
+        }
+    }
+};
