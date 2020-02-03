@@ -6,4 +6,4 @@ log.info("Running against " + page.url);
 page.open();
 page.search("Agile Testing");
 const visibleBooks = page.getNumberOfVisibleBooks();
-assert.equal(visibleBooks, 1, "There should only be one book visible");
+assert.equal(visibleBooks, 2, "There should only be one book visible");
