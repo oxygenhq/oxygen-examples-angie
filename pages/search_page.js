@@ -17,7 +17,7 @@ module.exports = {
         },
 
         getNumberOfVisibleBooks: function() {
-            return web.findElements(thisvisibleBooks).length
+            return web.findElements(this.visibleBooks).length
         }
     }
 }
