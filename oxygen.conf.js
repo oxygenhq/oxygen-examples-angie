@@ -53,7 +53,7 @@ module.exports = {
     // so only load modules that are used in the test.
     // See a list of available modules here: http://docs.oxygenhq.org/
     //
-    modules: ['web', 'db', 'log', 'assert', 'eyes', 'pdf', 'http', 'email'],
+    modules: ['web', 'db', 'log', 'assert', 'eyes', 'pdf', 'http', 'email', 'win'],
     //
     // =========
     // Framework
