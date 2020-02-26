@@ -4,7 +4,7 @@ web.init()
 web.transaction('Homepage');
 web.open('https://automationbookstore.dev/')
 
-web.transaction('Search');
+web.transaction('Search'); 
 web.type('id=searchBar', 'Agile Testing')
 web.waitForExist('li.ui-screen-hidden')
 var visibleBooks = web.findElements('li:not(.ui-screen-hidden)').length
