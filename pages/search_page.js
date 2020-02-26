@@ -7,17 +7,17 @@ module.exports = {
         visibleBooks: 'li:not(.ui-screen-hidden)',
 
         open: function() {
-            ox.module.web.init()
-            ox.module.web.open(this.url)
+            web.init()
+            web.open(this.url)
         },
 
         search: function(query) {
-            ox.module.web.type(this.searchBar, query)
-            ox.module.web.waitForExist(this.hiddenBooks)
+            web.type(this.searchBar, query)
+            web.waitForExist(this.hiddenBooks)
         },
 
         getNumberOfVisibleBooks: function() {
-            return ox.module.web.findElements(thisvisibleBooks).length
+            return web.findElements(thisvisibleBooks).length
         }
     }
 }
