@@ -36,6 +36,34 @@ module.exports = {
     },{
         browserName: 'firefox',
     }],
+    
+      
+    // ============
+    // Parameters
+    // ============
+    //
+    /*parameters : {
+        file: '<excel or csv file path>',
+        mode: 'seq', // can be 'random' or 'all' as well
+    },*/
+    
+    // ============
+    // Iterations
+    // ============
+    //
+    // Tests will run only once if iterations number is not explicitly specified.
+    //
+    //iterations: 1,
+    
+    // ============
+    // Selenium & Appium server URLs
+    // ============
+    //
+    // If not specified, the default URLs will be used
+    //
+    //seleniumUrl: 'http://localhost:4444/wd/hub',
+    //appiumUrl: 'http://localhost:4723/wd/hub',
+    
     //
     // ========
     // Services
