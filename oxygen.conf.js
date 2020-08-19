@@ -131,8 +131,6 @@ module.exports = {
             console.log('beforeSuite');
         },
         beforeCase: function(runId, caseDef) {
-            web.init()
-            eyes.init('web');
             log.info('Say hello before running this test case!')
             console.log('beforeCase');
         },
