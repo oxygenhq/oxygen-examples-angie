@@ -125,22 +125,27 @@ module.exports = {
         // can access Oxygen via 'ox' global variable. 
         //
         beforeTest: function(runId, options, caps) {
-            console.log('beforeTest');            
+            console.log('beforeTest');
         },
-        beforeSuite: function(runId, suiteDef) {
+        beforeSuite: function(suiteDef) {
             console.log('beforeSuite');
         },
-        beforeCase: function(runId, caseDef) {
-            log.info('Say hello before running this test case!')
+        beforeCase: function(caseDef) {
             console.log('beforeCase');
         },
-        afterCase: async function(runId, caseResult, error) {
+        beforeCommand: function(cmdDef) {
+            console.log('beforeCommand');
+        },
+        afterCommand: function(cmdResult) {
+            console.log('afterCommand');
+        },
+        afterCase: function(caseDef, caseResult) {
             console.log('afterCase')
         },
-        afterSuite: function(runId, suiteResult, error) {
+        afterSuite: function(suiteDef, suiteResult) {
             console.log('afterSuite')
         },
-        afterTest: function(runId, testResult, error) {
+        afterTest: function(runId, testResult) {
             console.log('afterTest')
         }
     }
