@@ -109,7 +109,7 @@ module.exports = {
     // Define your Applitools service API key.
     //
     applitoolsOpts: {
-        key: 'QFhaDgdYdxGeiK2363PcwSrZVi34lUCx6yR1f6diFUA110'
+        key: '{ENTER KEY HERE}'
     },
     //
     // =====
