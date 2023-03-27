@@ -2,8 +2,8 @@
 const page = po.searchPage;
 
 log.info("Running against " + page.url);
-log.info("EnvA:" + params.boolTestA);
-log.info("EnvB:" + params.boolTestB);
+log.info("${boolTestA}");
+log.info("${boolTestB}");
 page.open();
 page.search("Agile Testing");
 const visibleBooks = page.getNumberOfVisibleBooks();
