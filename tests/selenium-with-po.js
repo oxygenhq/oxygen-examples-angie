@@ -1,6 +1,5 @@
 //var po = require('../pages/search_page.js');
 const page = po.searchPage;
-var cc = po.bla();
 
 log.info("Running against " + page.url);
 log.info("EnvA:" + params.boolTestA);
