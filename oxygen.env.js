@@ -4,17 +4,17 @@ module.exports = {
         boolTestA: true,
         boolTestB: false,
         intTest: 4,
-        intStrTest: 5,
+        intStrTest: "5",
         floatTest: 454.454,
-        complexTest: { a: 4, b: true, c: false, d: "blalala"}
+        regex: /.*/
     },
     prod: {
         baseUrl: "http://prod.automationbookstore.dev",
         boolTestA: true,
         boolTestB: false,
         intTest: 4,
-        intStrTest: 5,
+        intStrTest: "5",
         floatTest: 454.454,
-        complexTest: { a: 4, b: true, c: false, d: "blalala"}
+        regex: /.*/
     }
 };
