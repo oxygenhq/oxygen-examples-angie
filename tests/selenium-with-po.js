@@ -2,6 +2,7 @@
 const page = po.searchPage;
 
 log.info("Running against " + page.url);
+log.info(params.text)
 log.info("${boolTestA}");
 log.info("${boolTestB}");
 page.open();
