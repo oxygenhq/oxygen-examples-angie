@@ -1,6 +1,6 @@
 module.exports = {
     default: {
-        baseUrl: "https://automationbookstore.dev/",
+        baseUrl: 'https://automationbookstore.dev/',
         boolTestA: true,
         boolTestB: false,
         intTest: 4,
