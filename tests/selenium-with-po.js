@@ -9,7 +9,7 @@ log.info("${floatTest}");
 log.info("${intStrTest}");
 log.info("${intTest}");
 log.info("${regex}");
-
+ 
 page.open();
 page.search("Agile Testing");
 const visibleBooks = page.getNumberOfVisibleBooks();
