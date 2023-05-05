@@ -4,6 +4,7 @@ module.exports = {
         boolTestA: true,
         boolTestB: false,
         intTest: 4,
+                intTest: 4,
         intStrTest: "5",
         floatTest: 454.454,
         regex: /.*/
