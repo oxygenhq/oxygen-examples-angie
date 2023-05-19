@@ -1,7 +1,6 @@
 web.transaction('Initialization');
 web.init()
 log.info(env.contentFilePath)
-log.info(envs.contentFilePath)
 web.transaction('Homepage');
 web.open('https://automationbookstore.dev/')
 
