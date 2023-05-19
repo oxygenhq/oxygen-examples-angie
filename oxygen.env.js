@@ -5,8 +5,7 @@ module.exports = {
         boolTestB: false,
         intTest: 4,
         intStrTest: "5",
-        contentFilePath:"\\\\menora\\DATA\\USERS\\PUBLIC\\Cloudbeat_QA\\hafaka\\QA\\",      
-        unescapedFilePath:"\\menora\DATA\USERS\PUBLIC\Cloudbeat_QA\hafaka\QA\\",           
+        contentFilePath:"\\\\menora\\DATA\\USERS\\PUBLIC\\Cloudbeat_QA\\hafaka\\QA\\",              
         writeToFileFilepath: "D:\\Project\\Tashlumim\\",
         floatTest: 454.454,
         regex: /.*/
@@ -17,8 +16,7 @@ module.exports = {
         boolTestB: false,
         intTest: 4,
         intStrTest: "5",
-        contentFilePath:"\\\\menora\\DATA\\USERS\\PUBLIC\\Cloudbeat_QA\\hafaka\\QA\\",             
-        unescapedFilePath:"\\menora\DATA\USERS\PUBLIC\Cloudbeat_QA\hafaka\QA\\",          
+        contentFilePath:"\\\\menora\\DATA\\USERS\\PUBLIC\\Cloudbeat_QA\\hafaka\\QA\\",                 
         writeToFileFilepath: "D:\\Project\\Tashlumim\\",
         floatTest: 454.454,
         regex: /.*/
