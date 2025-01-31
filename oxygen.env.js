@@ -11,21 +11,9 @@ module.exports = {
         regex: /.*/
     },
 
-    new3: {
-        baseUrl: "http://prod.automationbookstore.dev",
-        boolTestA: true,
-        boolTestB: false,
-        intTest: 4,
-        intStrTest: "5",
-        contentFilePath:"\\\\menora\\DATA\\USERS\\PUBLIC\\Cloudbeat_QA\\hafaka\\QA\\",                 
-        writeToFileFilepath: "D:\\Project\\Tashlumim\\",
-        floatTest: 454.454,
-        regex: /.*/
-    },
 
 
-
-    new3: {
+    new2: {
         baseUrl: "http://prod.automationbookstore.dev3",
         boolTestA: true,
         boolTestB: false,
