@@ -24,7 +24,7 @@ module.exports = {
     },
 
 
-    new2: {
+    new3: {
         baseUrl: "http://prod.automationbookstore.dev",
         boolTestA: true,
         boolTestB: false,
