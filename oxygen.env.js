@@ -11,7 +11,7 @@ module.exports = {
         regex: /.*/
     },
 
-    new: {
+    new3: {
         baseUrl: "http://prod.automationbookstore.dev",
         boolTestA: true,
         boolTestB: false,
@@ -24,8 +24,9 @@ module.exports = {
     },
 
 
+
     new3: {
-        baseUrl: "http://prod.automationbookstore.dev",
+        baseUrl: "http://prod.automationbookstore.dev3",
         boolTestA: true,
         boolTestB: false,
         intTest: 4,
