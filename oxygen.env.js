@@ -23,6 +23,6 @@ module.exports = {
         regex: /.*/,
         quote_test_double: "foo\"bar",
         quote_test_single: 'foo"bar',
-        invalid: "sdsd\",
+        invalid: "sdsd\sdsds\sdfsdfsd",
     }
 };
