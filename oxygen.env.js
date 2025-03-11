@@ -19,9 +19,11 @@ module.exports = {
         boolTestB: false,
         intTest: 4,
         intStrTest: "5",
-        contentFilePath:"\\\\menora\\DATA\\USERS\\PUBLIC\\Cloudbeat_QA\\hafaka\\QA\\",                 
+        contentFilePath:"\\\\menora\\DATA\\USERS\\PUBLIC\\Cloudbeat_QA\\hafaka\\QA\\",
         writeToFileFilepath: "D:\\Project\\Tashlumim\\",
         floatTest: 454.454,
-        regex: /.*/
+        regex: /.*/,
+        quote_test_double: "foo\"bar",
+        quote_test_single: 'foo"bar',
     }
 };
