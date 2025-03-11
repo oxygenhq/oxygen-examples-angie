@@ -5,13 +5,11 @@ module.exports = {
         boolTestB: false,
         intTest: 4,
         intStrTest: "5",
-        contentFilePath:"\\\\menora\\DATA\\USERS\\PUBLIC\\Cloudbeat_QA\\hafaka\\QA\\",              
+        contentFilePath:"\\\\test\\DATA\\USERS\\PUBLIC\\Cloudbeat_QA\\test\\QA\\",              
         writeToFileFilepath: "D:\\Project\\Tashlumim\\",
         floatTest: 454.454,
         regex: /.*/
     },
-
-
 
     new2: {
         baseUrl: "http://prod.automationbookstore.dev3",
@@ -19,11 +17,12 @@ module.exports = {
         boolTestB: false,
         intTest: 4,
         intStrTest: "5",
-        contentFilePath:"\\\\menora\\DATA\\USERS\\PUBLIC\\Cloudbeat_QA\\hafaka\\QA\\",
+        contentFilePath:"\\\\test\\DATA\\USERS\\PUBLIC\\Cloudbeat_QA\\test\\QA\\",
         writeToFileFilepath: "D:\\Project\\Tashlumim\\",
         floatTest: 454.454,
         regex: /.*/,
         quote_test_double: "foo\"bar",
         quote_test_single: 'foo"bar',
+        invalid: "sdsd\",
     }
 };
