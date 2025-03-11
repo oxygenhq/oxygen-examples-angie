@@ -22,7 +22,6 @@ module.exports = {
         floatTest: 454.454,
         regex: /.*/,
         quote_test_double: "foo\"bar",
-        quote_test_single: 'foo"bar',
-        invalid: "sdsd\sdsds\sdfsdfsd",
+        quote_test_single: 'foo"bar'
     }
 };
