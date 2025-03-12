@@ -28,7 +28,7 @@ module.exports = {
         escaped_chars: "\r\nfoo\r\nsdfsd\tdsfds",
 
 
-        func: function(a) {return a+5;}
+       // func: function(a) {return a+5;}
 
         //quote_test_single_double: 'foo"bar\"'                   // this is invalid
     }
