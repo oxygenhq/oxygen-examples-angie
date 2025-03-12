@@ -23,10 +23,12 @@ module.exports = {
         regex: /.*/,
         quote_test_double: "foo\"bar",
         quote_test_single: 'foo"bar'
-        quote_test_backticks: `foo"bar`,
+       // quote_test_backticks: `foo"bar`,
+        escaped_quote_test_single: 'foo\'bar',
         escaped_chars: "\r\nfoo\r\nsdfsd\tdsfds",
 
-        escaped_quote_test_single: 'foo\'bar'
+
+        func: function(a) {return a+5;}
 
         //quote_test_single_double: 'foo"bar\"'                   // this is invalid
     }
