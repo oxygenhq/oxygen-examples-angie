@@ -25,7 +25,7 @@ module.exports = {
         quote_test_single: 'foo"bar'
        // quote_test_backticks: `foo"bar`,
         //escaped_quote_test_single: 'foo\'bar',
-        escaped_chars: "\r\nfoo\r\nsdfsd\tdsfds",
+       // escaped_chars: "\r\nfoo\r\nsdfsd\tdsfds",
 
 
        // func: function(a) {return a+5;}
