@@ -15,6 +15,6 @@ log.info("${test2}");
 
  
 page.open();
-page.search("${test}");
+page.search("${test2}");
 const visibleBooks = page.getNumberOfVisibleBooks();
 assert.equal(visibleBooks, 2, "There should only be one book visible");
