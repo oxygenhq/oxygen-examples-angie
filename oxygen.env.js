@@ -8,7 +8,9 @@ module.exports = {
         contentFilePath:"\\\\test\\DATA\\USERS\\PUBLIC\\Cloudbeat_QA\\test\\QA\\",              
         writeToFileFilepath: "D:\\Project\\Tashlumim\\",
         floatTest: 454.454,
-        regex: /.*/
+        regex: /.*/,
+        test: "foo\bar",
+        test2: "foo2\\bar2"
     },
 
     new2: {

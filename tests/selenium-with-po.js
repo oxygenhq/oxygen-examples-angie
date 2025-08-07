@@ -9,8 +9,12 @@ log.info("${floatTest}");
 log.info("${intStrTest}");
 log.info("${intTest}");
 log.info("${regex}");
+
+log.info("${test}");
+log.info("${test2}");
+
  
 page.open();
-page.search("Agile Testing");
+page.search("${test}");
 const visibleBooks = page.getNumberOfVisibleBooks();
 assert.equal(visibleBooks, 2, "There should only be one book visible");
