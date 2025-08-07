@@ -10,7 +10,7 @@ log.info("${intStrTest}");
 log.info("${intTest}");
 log.info("${regex}");
 
-log.info("${test}");
+log.info("${test}"); // not working. types "foar"
 log.info("${test2}");
 
  
