@@ -9,7 +9,7 @@ module.exports = {
         writeToFileFilepath: "D:\\Project\\Tashlumim\\",
         floatTest: 454.454,
         regex: /.*/,
-        test: "foo\Kar",
+        test: "foo\bar",
         test2: "foo2\\bar2"
         test3: "foo3/bar3",
         test4: "foo4//bar4"
