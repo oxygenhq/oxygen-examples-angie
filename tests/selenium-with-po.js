@@ -11,10 +11,10 @@ log.info("${intTest}");
 log.info("${regex}");
 
 log.info("${test}"); // not working. types "foar"
-log.info("${test2}");
+log.info("${test2}");  // works
 
  
 page.open();
-page.search("${test2}");
+page.search("${test}");
 const visibleBooks = page.getNumberOfVisibleBooks();
 assert.equal(visibleBooks, 2, "There should only be one book visible");
